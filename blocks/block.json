@@ -1,0 +1,26 @@
+{
+    "_key_id": 464677,
+    "_id": 34155,
+    "name": "Cgm2Eon",
+    "description": "CGM data to EON",
+    "event_handlers": [
+        {
+            "_id": 33973,
+            "name": "Transform",
+            "event": "js-before-publish",
+            "channels": "Channel-tc6zzj5xi",
+            "file": "js-before-publish/Transform.js",
+            "output": "blocks-output-nZULPAMZOBnZm1Q1SJr1.13538410999724658",
+            "test": "js-before-publish/test/Transform.test.js"
+        },
+        {
+            "_id": 34135,
+            "name": "API",
+            "event": "js-on-rest",
+            "file": "js-on-rest/API.js",
+            "output": "blocks-output-nZULPAMZOBnZm1Q1SJr1.14216627780358294",
+            "path": "events/food",
+            "test": "js-on-rest/test/API.test.js"
+        }
+    ]
+}
