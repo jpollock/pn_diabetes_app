@@ -44,6 +44,7 @@ export default (request, response) => {
     // default GET request returns 200 OK
     controllers.default.post = () => {
         const url = 'https://api.mlab.com/api/1/databases/diabetes_data/collections/events_food?apiKey=OwcGXJK1gT9szsKgjIi8Jte5TmkEkf7c';
+        body['dd'] = 'ddddd';
         const http_options = {
             "method": "POST",
             "headers": {
